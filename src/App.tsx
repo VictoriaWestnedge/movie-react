@@ -129,7 +129,7 @@ export default function App() {
 
         {popuptoggle && (
           <div className="pop_up_container p-5">
-            <div className="pop_up_body bg-white w-75 h-75">
+            <div className="pop_up_body bg-white w-75">
               <div className="pop_up_content">
                 {popUpContent.map((content) => {
                   return (
